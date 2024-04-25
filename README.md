@@ -1,14 +1,14 @@
 # BYTEUPRISE_WD_01
 
-# TASK 01
+# Task 01
 
 PORTFOLIO
 
-# DESCRIPTION:
+# Description:
 
 This is a polished portfolio website crafted with HTML and CSS, dedicated to showcasing my skills and professional details with precision and style.
 
-# TECHNOLOGY USED
+# Technology Used
 
 •HTML: HTML is used to structure the content of the website, including headers, paragraphs, lists, sections, and links.
 
