@@ -1,0 +1,293 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+:root {
+  --primary-color: #6495ED; /* Cornflower Blue */
+  --primary-color-dark: #4169E1; /* Royal Blue */
+  --secondary-color: #ca8a04;
+  --text-dark: #1f2937;
+  --text-light: #6b7280;
+  --extra-light: #fefefe; /* Creamish white background color */
+  --max-width: 1200px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--extra-light); /* Off-white background */
+  z-index: 99;
+}
+
+.nav__content {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 1.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .logo a {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  transition: 0.3s;
+}
+
+nav .logo a:hover {
+  color: var(--primary-color-dark);
+}
+
+nav .checkbox {
+  display: none;
+}
+
+nav input {
+  display: none;
+}
+
+nav .checkbox i {
+  font-size: 2rem;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+}
+
+ul li a {
+  padding: 0.5rem 1rem;
+  border: 2px solid transparent;
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.section__container {
+  min-height: 100vh;
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 3rem;
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+}
+
+.title span {
+  font-weight: 900;
+}
+
+.description {
+  line-height: 2rem;
+  color: var(--text-light);
+  margin-bottom: 2rem;
+}
+
+.section {
+  background-color: var(--extra-light); 
+}
+
+.image {
+  display: grid;
+  place-items: center;
+}
+
+.image img {
+    border-radius: 50%;
+    width: auto; 
+    height: auto; 
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  .nav__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 28px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  section {
+    padding: 5px 0; 
+  }
+  
+  .section__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .title {
+    font-size: 42px;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 20px;
+    color: #666;
+  }
+  
+  .image {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .image img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .skills-list,
+  .projects-list {
+    list-style: none;
+    padding: 0 20px;
+   
+  }
+  
+  .projects-list a {
+    color: black;
+  }
+
+.title {
+    font-size: 50px; 
+    margin-bottom: 10px; 
+}
+
+.skills-list li,
+.projects-list li a{
+    font-size: 40px; 
+}
+
+.description {
+  font-size: 30px;
+  line-height: 1.5rem;
+  color: var(--text-light);
+  margin-bottom: 3rem; 
+}
+
+#resume .description, #contact .description {
+  font-size: 35px;
+}
+
+.section__container {
+  min-height: calc(100vh - 80px); 
+  gap: 1rem; 
+  padding: 0 10px; 
+}
+
+.section {
+  padding: 10px 0; 
+}
+
+#resume .description,
+#contact .description {
+  color: #000; 
+}
+
+.skills-list li {
+  font-weight: bold;
+  color: black;
+}
+
+#about,
+#skills,
+#resume,
+#projects {
+    border-bottom: 7px solid #6495ED; 
+    padding-bottom: 20px; 
+}
+
+.description a {
+  color: black;
+}
+
+.footer__content {
+  text-align: center;
+  background-color:#6495ED;
+  color: #fff;
+  padding: 40px 0;
+  font-size: 20px;
+}
+
+#skills h2.title::after,
+#projects h2.title::after,
+#resume h2.title::after,
+#contact h2.title::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #6495ED;
+    margin-top: 10px;
+}
